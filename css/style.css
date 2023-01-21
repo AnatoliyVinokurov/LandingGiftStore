@@ -53,30 +53,45 @@ select {
     padding: 30px 15px;
 }
 
-.header-nav{
+.header-nav {
     display: flex;
     flex-wrap: wrap;
 }
-.header-nav li{
+
+.header-nav li {
     margin: 5px 15px;
 }
-.header-nav li a{
+
+.header-nav li a {
     color: #000;
     text-decoration: none;
     font-size: 1.125rem;
 }
 
-.header-nav li a:hover{
+.header-nav li a:hover {
     text-decoration: underline;
 }
 
-.header-btn-finder{
+.header-btn-finder {
     text-transform: uppercase;
     border: 1px solid #f7941e;
     color: #f7941e;
     padding: 14px 25px;
     text-decoration: none;
-    font-size: 1.125rem; 
+    font-size: 1.125rem;
     border-radius: 5px;
     display: inline-block;
+}
+
+@media(max-width: 700px) {
+    .header {
+        flex-direction: column;
+    }
+    .header-logo{
+        margin-bottom: 24px;
+    }
+    .header-nav{
+        margin-bottom: 24px;
+        justify-content: center;
+    }
 }
