@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,9 +7,13 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 ul[class],
@@ -25,4 +31,52 @@ button,
 textarea,
 select {
     font: inherit;
+}
+
+.wrap {
+    max-width: 1170px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-wrap {
+    background-color: #fafafa;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+
+.header-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-nav li{
+    margin: 5px 15px;
+}
+.header-nav li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+
+.header-nav li a:hover{
+    text-decoration: underline;
+}
+
+.header-btn-finder{
+    text-transform: uppercase;
+    border: 1px solid #f7941e;
+    color: #f7941e;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 1.125rem; 
+    border-radius: 5px;
+    display: inline-block;
 }
