@@ -33,6 +33,13 @@ select {
     font: inherit;
 }
 
+.wrap {
+    max-width: 1170px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .header-wrap {
     background-color: #fafafa;
 }
@@ -161,6 +168,8 @@ select {
     border-radius: 5px;
     display: inline-block;
 }
+
+
 
 @media(max-width: 1000px) {
     .about {
