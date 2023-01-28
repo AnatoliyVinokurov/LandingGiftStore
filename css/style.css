@@ -274,6 +274,43 @@ select {
     display: inline-block;
 }
 
+.posts-wrap{
+    padding: 80px 0;
+}
+
+.posts>p{
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.post-block{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    'postbig postbig' 
+    'postleft postright'
+    ;
+}
+
+.post-big{
+    grid-area: postbig;
+    display: flex;
+    background: #000;
+    color: #fff;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.post-left{
+    grid-area: postleft;
+}
+
+.post-right{
+    grid-area: postright;
+}
+
 @media(max-width: 1000px) {
     .about {
         grid-template-columns: 100%;
