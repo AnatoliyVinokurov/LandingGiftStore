@@ -426,6 +426,35 @@ select {
         /*одинаковое расстояние справа и слева*/
         row-gap: 2rem;
     }
+
+    .post-block {
+        grid-template-columns: 100%;
+        grid-template-areas:
+            'postbig'
+            'postleft'
+            'postright'
+        ;
+    }
+
+    .post-big {
+        margin-bottom: 20px;
+    }
+
+    .post-autor {
+        margin-bottom: 20px;
+    }
+    .post-big-txt h2{
+        font-size: 32px;
+        line-height: 47px;
+        margin-bottom: 30px;
+        margin-right: 30px;
+    }
+    .post-big-img{
+        margin-right: 30px;
+    }
+    .post-item{
+        padding: 25px 15px;
+    }
 }
 
 @media(max-width: 700px) {
@@ -471,5 +500,23 @@ select {
         width: 270px;
         margin: 0 auto 16px auto;
         text-align: center;
+    }
+
+    .post-big{
+        flex-direction: column; 
+        padding: 20px 0;
+    }
+
+    .post-big-img{
+        margin: 0 auto 20px auto;
+    }
+
+    .post-big-txt{
+        max-width: 400px;
+        padding: 0 15px;
+    }
+
+    .post-item{
+        padding: 15px 5px;
     }
 }
