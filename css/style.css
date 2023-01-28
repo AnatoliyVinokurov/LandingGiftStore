@@ -169,7 +169,65 @@ select {
     display: inline-block;
 }
 
+.gifts-wrap {
+    padding: 95px 0;
+}
 
+.centered {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.gifts>p {
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.gifts-blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.gifts-items {
+    max-width: 270px;
+    background: #fafafa;
+}
+
+.gifts-items:hover {
+    background: #fff;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.gifts-items-txt {
+    padding: 24px;
+}
+
+.gifts-items-txt h3 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 74px;
+}
+
+.gifts-items-txt p {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.gifts-items-txt p a {
+    color: #000;
+    text-decoration: none;
+}
+
+.gifts-items-txt p a:hover {
+    text-decoration: underline;
+}
 
 @media(max-width: 1000px) {
     .about {
@@ -195,6 +253,14 @@ select {
     .about-work,
     .about-find {
         padding: 32px 20px;
+    }
+}
+
+@media(max-width: 700px) {
+    .gifts-blocks{
+        flex-wrap: wrap; /*разрешить вставать с новой строки при сужении*/
+        justify-content: space-evenly; /*одинаковое расстояние справа и слева*/
+        row-gap: 2rem;
     }
 }
 
