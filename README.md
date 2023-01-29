@@ -16,6 +16,9 @@ The site was made according to the Figma template
 
 ### Final site layout
 <p>Final work preview</p>
-<img src="./readme_assets/web.png" width="30%">
-<img src="./readme_assets/mobile.png" width="30%">
-<img src="./readme_assets/extra-small.png" width="30%">
+<a href="http://vinokurov1721.tk/LandingGiftStore/"> 
+<img src="./readme_assets/web.png" width="30%"></a>
+<a href="http://vinokurov1721.tk/LandingGiftStore/"> 
+<img src="./readme_assets/mobile.png" width="15%"></a>
+<a href="http://vinokurov1721.tk/LandingGiftStore/"> 
+<img src="./readme_assets/extra-small.png" width="10%"></a>
