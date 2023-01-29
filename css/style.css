@@ -83,6 +83,11 @@ select {
     display: inline-block;
 }
 
+.header-btn-finder:hover {
+    background: #f7941e;
+    color: #fff;
+}
+
 .about {
     max-width: 1440px;
     margin: 0 auto;
@@ -156,6 +161,14 @@ select {
     font-size: 1.125rem;
     border-radius: 5px;
     display: inline-block;
+    border: 1px solid #f7941e;
+}
+
+.btn-orange:hover {
+    background: #fff;
+    color: #f7941e;
+    border: #f7941e;
+    border: 1px solid #f7941e;
 }
 
 .btn-orange-transparent {
@@ -167,6 +180,11 @@ select {
     font-size: 1.125rem;
     border-radius: 5px;
     display: inline-block;
+}
+
+.btn-orange-transparent:hover {
+    background: #f7941e;
+    color: #fff;
 }
 
 .gifts-wrap {
@@ -263,6 +281,12 @@ select {
     margin-right: 15px;
 }
 
+.btn-black:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
 .btn-black-transparent {
     text-transform: uppercase;
     border: 1px solid #000;
@@ -272,6 +296,11 @@ select {
     font-size: 1.125rem;
     border-radius: 5px;
     display: inline-block;
+}
+
+.btn-black-transparent:hover {
+    background: #fff;
+    color: #000;
 }
 
 .posts-wrap {
@@ -301,6 +330,10 @@ select {
     color: #fff;
     align-items: center;
     margin-bottom: 40px;
+}
+
+.post-big:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.15);
 }
 
 .post-left {
@@ -412,14 +445,14 @@ select {
     text-decoration: underline;
 }
 
-.footer-line{
+.footer-line {
     height: 1px;
     background: #000;
     width: 85%;
     margin-bottom: 40px;
 }
 
-.footer-copy{
+.footer-copy {
     font-size: 14px;
     line-height: 20px;
 }
